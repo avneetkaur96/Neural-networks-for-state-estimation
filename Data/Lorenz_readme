@@ -1,0 +1,6 @@
+The code is in Lorenz_data_hackathon.ipynb
+The data is in 2 files: lorenz_data_hackathon.npz and lorenz_data_diff_ic_hackathon.ipynb
+The first file will be split in the ratio of 8:1:1 for training, validation and testing. 
+The second file will be used only to test if the neural network works well on data never seen before. The initial conditions for these sequences were sampled with a mean sampled from a wider range than the one used for training. 
+Feel free to geenrate new files and new data using the code. 
+To load data use the np.load() command. 
